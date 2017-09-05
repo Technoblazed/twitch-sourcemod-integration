@@ -1,14 +1,26 @@
 {
-    "name": "webserver",
-    "version": "0.0.0",
+    "name": "twitch-sourcemod-integration",
+    "version": "1.0.0",
+    "description": "Twitch-Sourcemod-Integration is used to allow streamers to integrate their Twitch subscriber statuses to gameservers.",
+    "author": "Anthony Adams <anthony@tech-no.me>",
     "private": true,
     "scripts": {
         "start": "node ./bin/www"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/technoblazed/twitch-sourcemod-integration"
+    },
+    "bugs": {
+        "url": "https://github.com/technoblazed/twitch-sourcemod-integration/issues"
+    },
     "dependencies": {
         "debug": "~2.6.3",
         "express": "~4.15.2",
+        "lodash": "^4.17.4",
         "morgan": "~1.8.1",
+        "mysql": "^2.14.1",
         "requestretry": "^1.12.2"
-    }
+    },
+    "license": "gpl3"
 }
